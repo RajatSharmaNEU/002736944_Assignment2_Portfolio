@@ -7,24 +7,109 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="desktop.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#home" class="home">
-                Rajat Sharma
+<header>
+    <nav>
+        <a href="#home" class="home">
+            Rajat Sharma
+        </a>
+        <div class="sub-nav">
+            <a href="#profile">Profile</a>
+            <a href="#education">Education</a>
+            <a href="#tech-skill">Tech Skills</a>
+            <a href="">Experience</a>
+            <a href="">Certifications</a>
+            <a href="">Projects</a>
+            <a href="">Contact</a>
+        </div>
+    </nav>
+</header>
+<section class="profile" id="profile">
+    <div class="profile-content">
+        <h3>Profile</h3>
+        I am an Information Systems Graduate Student at Northeastern University (GPA - 3.85) with 10+ years of work
+        experience in software development.
+        <br><br>
+        I am highly skilled in architecting, executing, and delivering - Single-Page Application, Micro-Frontend,
+        Progressive Web Application, Server Side Rendering frontend solutions, Java Spring Boot & NodeJS backend
+        solutions. and AWS & Azure cloud solutions.
+        <br><br>
+        In addition to managing all Agile/Scrum processes, such as sprint planning, daily scrums, sprint reviews, and
+        sprint retrospectives, I am frequently praised for being a hands-on and capable leader who is skilled at
+        coordinating cross-functional teams and coaching team members and clients on technical and agile skills.
+        <br><br>
+        Follow me on -
+        <span class="icon-set">
+            <a href="https://www.linkedin.com/in/rajatgms/" target="_blank">
+                <img src="images/linkedin-icon.png" alt="Linkedin">
             </a>
-            <div class="sub-nav">
-                <a href="">Profile</a>
-                <a href="">Education</a>
-                <a href="">Tech Skills</a>
-                <a href="">Experience</a>
-                <a href="">Certifications</a>
-                <a href="">Projects</a>
-                <a href="">Contact</a>
+            <a href="https://medium.com/@rajatgms/" target="_blank">
+                <img src="images/medium-icon.png" alt="Medium">
+            </a>
+            <a href="https://github.com/Rajatgms" target="_blank">
+                <img src="images/github-icon.png" alt="Github">
+            </a>
+            </span>
+    </div>
+    <img class="picture" src="images/profilePic.jpg" alt="Profile Pic">
+</section>
+
+<section class="education" id="education">
+    <div class="education-content">
+        <h3>Education</h3>
+        <ul>
+            <li>
+                <strong>Northeastern University, Boston, MA</strong>,
+                <i>Master of Science in Information Systems, GPA-3.85</i>,
+                <u>Sep 2022 – Expected May 2024</u>
+            </li>
+            <li>
+                <strong>Guru Gobind Singh Indraprastha University, Delhi, India</strong>,
+                <i>B.Tech in Electronics and Communication Engineering</i>,
+                <u>May 2007 – Apr 2011</u>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="tech-skill" id="tech-skill">
+    <div class="tech-skill-content">
+        <h3>Technical Skills</h3>
+        <div class="tech-skill-list">
+            <div>
+                <span>Programming - </span>
+                <span>JavaScript, Java</span>
             </div>
-        </nav>
-    </header>
-    
+            <div>
+                <span>Architecture - </span>
+                <span>SPA, SSR, Micro-frontend, PWA, Microservices, Serverless architecture</span>
+            </div>
+            <div>
+                <span>Web - </span>
+                <span>HTML, CSS, Boostrap, React, Redux, Redux-Toolkit, Node.js, jQuery, TypeScript, Sass, Webpack, Nginx, ExpressJS, Storyboard</span>
+            </div>
+            <div>
+                <span>Testing library & Framework - </span>
+                <span>React Testing Library, Cypress, Jest, Enzyme, NightWatchJS, Sinon, Jasmine, Mocha, Chai</span>
+            </div>
+            <div>
+                <span>Databases -</span>
+                <span>MySQL, Cassandra, Oracle, MongoDB, SQL Server</span>
+            </div>
+            <div>
+                <span>Cloud and Distributed Computing - </span>
+                <span>Kubernetes, Docker, Azure, AWS, Heroku</span>
+            </div>
+            <div>
+                <span>Tool - </span>
+                <span>GoCD, JFrog, Splunk, Fortify, Blackduck, Heap Analytics, Adobe analytics, SonarQube, Prometheus, Grafana, Apigee</span>
+            </div>
+        </div>
+    </div>
+</section>
+
 </body>
 </html>

@@ -1,0 +1,26 @@
+@media screen and (min-width: 1024px) {
+    nav .home {
+        float: left;
+        color: black;
+    }
+
+    nav .sub-nav {
+        float: right;
+    }
+
+    .profile, .education, .tech-skill {
+        display: flex;
+        flex: 1 1 auto;
+        gap: 40px;
+        padding: 0 30px;
+    }
+
+    .profile .picture {
+        width: 20%;
+    }
+
+    .tech-skill-list > div {
+        background-color: tomato;
+        padding: 10px;
+    }
+}

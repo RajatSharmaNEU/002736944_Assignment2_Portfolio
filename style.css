@@ -22,30 +22,43 @@ nav a {
 nav .home {
     color: black;
 }
+
 nav .home, nav .sub-nav {
     padding: 10px;
 }
 
-@media screen and (min-width: 1024px) {
-    nav .home {
-        float: left;
-        color: black;
-    }
-
-    nav .sub-nav {
-        float: right;
-    }
+.profile {
+    background-color: whitesmoke;
 }
 
-@media screen and (max-width: 1023px) {
-    nav .home, nav .sub-nav a {
-        display: block;
-        text-align: center;
-    }
+[class$="-content"] {
+    font-size: 1.5em;
+}
 
-    nav .sub-nav a {
-        font-size: 1em;
-        padding: 10px 0;
-        margin: 0;
-    }
+.icon-set a {
+    text-decoration: none;
+}
+
+.icon-set img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.education {
+    background-color: lightgray;
+}
+
+.education-content li {
+    padding: 20px 0;
+}
+
+.tech-skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tech-skill-list > div > span:first-child {
+    font-weight: bold;
 }
