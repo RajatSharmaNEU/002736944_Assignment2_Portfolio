@@ -45,7 +45,7 @@ nav .home, nav .sub-nav {
     vertical-align: middle;
 }
 
-.education {
+.education, .experience {
     background-color: lightgray;
 }
 
@@ -61,4 +61,33 @@ nav .home, nav .sub-nav {
 
 .tech-skill-list > div > span:first-child {
     font-weight: bold;
+}
+
+.certifications {
+    flex-direction: column;
+}
+
+.certifications-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.certifications-list > a {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.certifications-list > a:hover {
+    background-color: lightgray;
+}
+
+.certifications img {
+    width: 20%;
+}
+
+.certifications h4 {
+    align-self: center;
 }

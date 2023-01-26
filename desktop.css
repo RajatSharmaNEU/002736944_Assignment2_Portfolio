@@ -8,11 +8,11 @@
         float: right;
     }
 
-    .profile, .education, .tech-skill, .experience {
+    .profile, .education, .tech-skill, .experience, .certifications {
         display: flex;
         flex: 1 1 auto;
         gap: 40px;
-        padding: 0 30px;
+        padding: 0 30px 30px;
     }
 
     .profile .picture {
@@ -22,5 +22,9 @@
     .tech-skill-list > div {
         background-color: lightgray;
         padding: 10px;
+    }
+
+    .certifications h3 {
+        margin-bottom: 0;
     }
 }
