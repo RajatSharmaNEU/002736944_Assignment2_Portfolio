@@ -10,7 +10,7 @@
         margin: 0;
     }
 
-    .profile, .education, .tech-skill {
+    .profile, .education, .tech-skill, .experience {
         display: flex;
         flex-direction: column;
         padding: 0 20px;

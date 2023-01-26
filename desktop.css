@@ -8,7 +8,7 @@
         float: right;
     }
 
-    .profile, .education, .tech-skill {
+    .profile, .education, .tech-skill, .experience {
         display: flex;
         flex: 1 1 auto;
         gap: 40px;
@@ -20,7 +20,7 @@
     }
 
     .tech-skill-list > div {
-        background-color: tomato;
+        background-color: lightgray;
         padding: 10px;
     }
 }
