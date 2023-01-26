@@ -32,6 +32,10 @@ nav .home, nav .sub-nav {
     padding: 10px;
 }
 
+.download-icon {
+    vertical-align: top;
+}
+
 .scroll-top {
     display: none;
 }
