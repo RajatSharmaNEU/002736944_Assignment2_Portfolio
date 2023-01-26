@@ -30,4 +30,9 @@ Other tags -
 12. main - Semantic tag to represent main section of the document.
 13. footer - Semantic tag to represent footer section of the document.
 14. section - Semantic tag to represent multiple sections of the document.
-15.
+
+External Css
+- Used style.css for common styles
+- Used desktop.css for devices width greater than 1024px - Used Media Query
+- Used mobile.css for devices width less than 1024px - Used Media Query
+
