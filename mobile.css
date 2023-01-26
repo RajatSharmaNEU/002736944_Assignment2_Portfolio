@@ -10,7 +10,20 @@
         margin: 0;
     }
 
-    .profile, .education, .tech-skill, .experience, .certifications {
+    .scroll-top {
+        display: block;
+        position: fixed;
+        bottom: 2em;
+        right: 2em;
+        background-color: rgba(255, 0, 0, 0.5);
+        padding: 10px;
+        border-radius: 10px;
+        color: black;
+        text-decoration: none;
+        font-size: 1.25em;
+    }
+
+    section {
         display: flex;
         flex-direction: column;
         padding: 0 20px 20px;
@@ -26,10 +39,13 @@
         order: 1;
     }
 
+    .certifications img {
+        display: none;
+    }
+
     .certifications-list {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        gap: 20px;
     }
 }

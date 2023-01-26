@@ -5,13 +5,14 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <title>Rajat Sharma Portfolio</title>
+    <link rel="icon" href="images/favicon.png" type="/png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="desktop.css">
 </head>
 <body>
-<header>
+<header id="home">
     <nav>
         <a href="#home" class="home">
             Rajat Sharma
@@ -19,13 +20,16 @@
         <div class="sub-nav">
             <a href="#profile">Profile</a>
             <a href="#education">Education</a>
-            <a href="#tech-skill">Tech Skills</a>
+            <a href="#tech-skill">Technical Skills</a>
             <a href="#experience">Experience</a>
-            <a href="certifications">Certifications</a>
-            <a href="">Projects</a>
-            <a href="">Contact</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#projects">Projects</a>
+            <a href="mailto:sharma.raja@northeastern.edu">✉️</a>
+            <a href="tel:+18574079232">📞</a>
+            <a href="files/Rajat_Sharma.pdf" download>Download Resume</a>
         </div>
     </nav>
+    <a href="#home" class="scroll-top">Top</a>
 </header>
 <section class="profile" id="profile">
     <div class="profile-content">
@@ -56,7 +60,6 @@
     </div>
     <img class="picture" src="images/profilePic.jpg" alt="Profile Pic">
 </section>
-
 <section class="education" id="education">
     <div class="education-content">
         <h3>Education</h3>
@@ -74,7 +77,6 @@
         </ul>
     </div>
 </section>
-
 <section class="tech-skill" id="tech-skill">
     <div class="tech-skill-content">
         <h3>Technical Skills</h3>
@@ -110,7 +112,6 @@
         </div>
     </div>
 </section>
-
 <section class="experience" id="experience">
     <div class="experience-content">
         <h3>Experience</h3>
@@ -118,10 +119,13 @@
             <strong>McKinsey & Company, Gurgaon, India, Senior Software Engineer (Oct 2016 – Aug 2022)</strong>
             <ul>
                 <li>
-                    Led team in architecting, executing, and delivering cloud-native software with an emphasis on Micro-frontend, SSR and Microservices architecture, and performance optimization by leveraging DevOps and Left Shift practices
+                    Led team in architecting, executing, and delivering cloud-native software with an emphasis on
+                    Micro-frontend, SSR and Microservices architecture, and performance optimization by leveraging
+                    DevOps and Left Shift practices
                 </li>
                 <li>
-                    Created reusable component library, testing framework & project scaffolding archetype that reduced new project onboarding time and team functional efforts
+                    Created reusable component library, testing framework & project scaffolding archetype that reduced
+                    new project onboarding time and team functional efforts
                 </li>
             </ul>
         </div>
@@ -129,10 +133,12 @@
             <strong>Nagarro, Gurgaon, India, Senior Associate Technology (Jul 2014 – Sep 2016)</strong>
             <ul>
                 <li>
-                    Acted as a bridge between client and project team by embracing the agile mindset with a scrum to consolidate and incorporate client inputs in web application deliverables
+                    Acted as a bridge between client and project team by embracing the agile mindset with a scrum to
+                    consolidate and incorporate client inputs in web application deliverables
                 </li>
                 <li>
-                    Participate in collaborative problem-solving with technical and non-technical stakeholders to develop and put into practice futuristic general solutions
+                    Participate in collaborative problem-solving with technical and non-technical stakeholders to
+                    develop and put into practice futuristic general solutions
                 </li>
             </ul>
         </div>
@@ -140,10 +146,12 @@
             <strong>Infosys Limited, Bangalore, India, Senior System Engineer (Dec 2011 – Jul 2014)</strong>
             <ul>
                 <li>
-                    Created Microsoft Silverlight widgets and controls to enhance the time to interact and responsiveness of web controls
+                    Created Microsoft Silverlight widgets and controls to enhance the time to interact and
+                    responsiveness of web controls
                 </li>
                 <li>
-                    Developed and linked business & data access logic to retrieve data from databases and from externally hosted services
+                    Developed and linked business & data access logic to retrieve data from databases and from
+                    externally hosted services
                 </li>
             </ul>
         </div>
@@ -152,18 +160,102 @@
 <section class="certifications" id="certifications">
     <div class="certifications-content">
         <h3>Certifications</h3>
-    </div>
-    <div class="certifications-list">
-        <a href="https://www.credly.com/badges/245e6798-c001-4138-ac9e-1ff5c5ea74e4?source=linked_in_profile" target="_blank">
-            <img src="images/aws-certificate.png" alt="AWS Certified Solutions Architect – Associate">
-            <h4>AWS Certified Solutions Architect – Associate</h4>
-        </a>
-        <a href="https://www.credly.com/badges/9e1b436e-c38d-49f1-9934-bf4b4dcdab69?source=linked_in_profile" target="_blank">
-            <img src="images/azure-certificate.png" alt="Microsoft Certified: Azure Fundamentals">
-            <h4>Microsoft Certified: Azure Fundamentals</h4>
-        </a>
+        <div class="certifications-list">
+            <a href="https://www.credly.com/badges/245e6798-c001-4138-ac9e-1ff5c5ea74e4?source=linked_in_profile"
+               target="_blank">
+                <img src="images/aws-certificate.png" alt="AWS Certified Solutions Architect – Associate">
+                <h4>AWS Certified Solutions Architect – Associate</h4>
+                <div class="overlay">
+                    <figcaption>Click to view certificate</figcaption>
+                </div>
+            </a>
+            <a href="https://www.credly.com/badges/9e1b436e-c38d-49f1-9934-bf4b4dcdab69?source=linked_in_profile"
+               target="_blank">
+                <img src="images/azure-certificate.png" alt="Microsoft Certified: Azure Fundamentals">
+                <h4>Microsoft Certified: Azure Fundamentals</h4>
+                <div class="overlay">
+                    <figcaption>Click to view certificate</figcaption>
+                </div>
+            </a>
+        </div>
     </div>
 </section>
-
+<section class="projects" id="projects">
+    <div class="projects-content">
+        <h3>Projects</h3>
+        <div class="projects-list">
+            <div>
+                <h4>Alumni Center</h4>
+                <i>McKinsey's official platform to help the Firm's global network of former consultants remain engaged
+                    with the firm, their knowledge, and each other.</i>
+                <h5>Roles and responsibilities - </h5>
+                <ul>
+                    <li>
+                        Migrated the complete solution from on-premises to the Cloud platform, lowering IT resource
+                        costs while improving the product's scalability, security, and availability
+                    </li>
+                    <li>
+                        Drafted and spearheaded Micro-frontend and Microservices architecture to enable autonomous
+                        module development and testing
+                    </li>
+                    <li>
+                        Produced a reusable pattern library to enable web accessibility more quickly and affordably
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4>McKElections</h4>
+                <i>Election facilitation platform to conduct the firm elections for the selection of committee members
+                    and a managing partner.</i>
+                <h5>Roles and responsibilities - </h5>
+                <ul>
+                    <li>
+                        Prototyped and presented MVP to Senior Partners & Firm Legal to validate assumptions, solve
+                        primary problems, and share the first experience that bagged project approval
+                    </li>
+                    <li>
+                        Assisted a 10-members vendor team and used agile development principles to address complex
+                        adaptive problems, improve productivity and deliver the best solution
+                    </li>
+                    <li>
+                        Onboarded and integrated MultiFactor authentication and set up a secured communication strategy
+                        to store application data and use third-party APIs
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4>McKinsey Design Systems</h4>
+                <i>Set of tools & guidance to help the Firm design and build digital products more efficiently and to
+                    re-use, share and produce more consistent experiences.</i>
+                <h5>Roles and responsibilities - </h5>
+                <ul>
+                    <li>
+                        Researched the latest market standard to define the best technology stack and architecture for
+                        the Design System
+                    </li>
+                    <li>Developed McKinsey Bootstrap theme and led the development of Firm React Library incorporated by
+                        multiple groups to reduce their designing and development cost & efforts by 20%
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4>Accentra</h4>
+                <i>A web application to build and manage access control systems for multi-family units and small to medium businesses.</i>
+                <h5>Roles and responsibilities - </h5>
+                <ul>
+                    <li>
+                        Provided technology consulting in end-to-end product development, deployment, and making live
+                    </li>
+                    <li>Introduced Test Driven Development practice and added test cases to achieve more than 85% code coverage
+                    </li>
+                    <li>Setup design framework and introduced the latest market coding standards, further reused in other projects</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    © by Rajat Sharma
+</footer>
 </body>
 </html>
